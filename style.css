@@ -13,8 +13,8 @@
   background-color: #fff;
   box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 }
-.logo>img{
-  padding: 1rem;
+.logo>picture>img{
+  padding: 0.2rem;
 }
 
 /* Body */

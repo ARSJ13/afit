@@ -4,13 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>aFit</title>
-  <link rel="shortcut icon" href="./assets/logo.png" />
+  <link rel="shortcut icon" href="./assets/logo.png" width='50px'/>
   <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <header class="logo">
-    <img src="./assets/logo.png" alt="logo afit">
+    <picture>
+      <source media="(max-width: 600px)" alt="logo afit" srcset="./assets/logo.png 2x">
+      <source media="(max-width: 800px)" alt="logo afit" srcset="./assets/logo.png 1.5x">
+      <source media="(min-width: 801px)" alt="logo afit" srcset="./assets/logo.png">
+      <img src="./assets/logo.png" alt="logo afit">
+    </picture>
   </header>
   <main>
     <div class="container">
